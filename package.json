@@ -1,0 +1,10 @@
+{
+  "name": "custom-lighthouse-recipe",
+  "private": true,
+  "scripts": {
+    "audit": "lighthouse --config-path=custom-config.js https://dev-company.securer.io"
+  },
+  "devDependencies": {
+    "lighthouse": "^3.x"
+  }
+}
